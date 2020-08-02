@@ -17,10 +17,10 @@ Rhythm gamers enjoy, as the name implies Japanese music games. Game such as thes
 ### MVP/Goals
 
 Rhy-Finder's MVP's are:<br>
--to have a map showing various arcades in the NJ/NY area
--have a search bar for searching various arcades and their locations 
--have a working form for people to add locations/machines
--have a detailed page working showing arcade and machines 
+-to have a map showing various arcades in the NJ/NY area<br>
+-have a search bar for searching various arcades and their locations<br>
+-have a working form for people to add locations/machines<br>
+-have a detailed page working showing arcade and machines<br>
 
 
 <br>
@@ -108,7 +108,7 @@ src
 | Integrate Maps on page   |    H    |     4 hrs      |    TBD    |   TBD  |
 | Create CRUD Actions |    H     |     3 hrs      |     TBD     |     TBD     |
 | Get YELP API working |    H     |     4 hrs      |     TBD     |     TBD     |
-| Create Search Bar and functiojnality |    M     |    TBD      |     TBD     |     TBD     |
+| Create Search Bar and functionality |    M     |    3hrs     |     TBD     |     TBD     |
 | Display Locations on a table  |    L    |     3 hrs      |     TBD     |     TBD     |
 | Work on Add Arcade/Add Machine  |    M     |     4 hrs      |     TBD     |     TBD     |
 | Work on arcade detail component |    L    |     3 hrs      |     TBD     |     TBD     |
