@@ -1,11 +1,11 @@
 ### Overview
 
-_**Rhy-Finder** 
+**Rhy-Finder** 
 (Pronounced as 'Y-Finder')
-Arcades are a thing of the past, and when you find one you often can find only the big ones such as Dave and Busters and for kids, Chuck E Cheese.  However, a niche community of gamers still often go to arcades, this community is the community of rhythm gamers. 
+Arcades were a big hit in the 80s and 90s, then in the early 2000s with the costs rising as well as home systems being extremely popular, arcades 
+began to die out. Nowadays, you mostly find big name arcades with bars such as Dave and Busters, while there are still arcades around they're pretty much a commodity. A small community of gamers still enjoy going to regular arcades because of the game selection, this community is the rhythm gamers.
 
-Rhythm gamers enjoy, as the name implies Japanese music games. Game such as these include the most well known one, Dance Dance Revolution and some lesser known ones such as JuBeat, IIDX, Dance Rush Stardom, just to name a few. This app will show the locations of arcades as well as the machines that some of these arcades have. 
-
+Rhythm gamers enjoy, as the name implies Japanese music games. Game such as these include the most well known one, Dance Dance Revolution and some lesser known ones such as JuBeat, IIDX, Dance Rush Stardom, just to name a few. Since these games are such a rare find in arcades and the fact that arcades are a rare find nowadays, I came up with the idea of "Rhy-finder!", an app to help locate arcades as well as the rarer games you don't see everyday. 
 
 
 ### Wireframes
@@ -46,7 +46,7 @@ Rhy-Finder's MVP's are:<br>
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| AirTable API|      yes      | #####| ####|
+| AirTable API|      yes      |http://www.airtable.com| ####|
 | Yelp API    |      yes      | http://www.yelp.com | #####|
 | MapBox API  |      yes      |https://www.mapbox.com/| ####|
 
@@ -60,7 +60,6 @@ Rhy-Finder's MVP's are:<br>
 ```
 src
 |__ assets/
-      |__ data-tests
       |__ fonts
       |__ graphics
       |__ images
@@ -114,7 +113,7 @@ src
 | Work on arcade detail component |    L    |     3 hrs      |     TBD     |     TBD     |
 | Designing App |    M     |     4 hrs      |     TBD     |     TBD     |
 | Testing CRUD Functionaly  |    H     |     4 hrs      |     TBD     |     TBD     |
-| Create Dummy Data in Airtable |    H     |     2 hrs      |     TBD     |     TBD     |
+| Create Dummy Data in Airtable/Testing Airtable  |    H     |     2 hrs      |     TBD     |     TBD     |
 | Create CRUD Actions |    H     |     3 hrs      |     TBD     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
@@ -124,7 +123,6 @@ src
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
 -Add more CRUD functionality with delete and update functionality
 -Add another component for the various machines in the arcade to check status and quality of machine
