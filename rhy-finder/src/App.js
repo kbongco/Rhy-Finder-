@@ -5,6 +5,7 @@ import "./App.css";
 import Navigation from "./Navigation";
 import Locations from "./Locations";
 import AddArcade from "./AddArcade"
+import AddGame from "./AddGame"
 import Home from "./Home";
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
 
       <Route path='/addarcade'>
         <AddArcade />
+      </Route>
+
+      <Route path='/addgame'>
+        <AddGame/>
       </Route>
     </>
   );
