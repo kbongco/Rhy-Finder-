@@ -1,2 +1,3 @@
 These are some Sources that I used for help:
 https://manavsehgal.com/create-basic-navigation-components-using-react-router-475bc55a517f
+https://www.digitalocean.com/community/tutorials/how-to-display-data-from-the-digitalocean-api-with-react
