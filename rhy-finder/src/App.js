@@ -4,17 +4,22 @@ import logo from './logo.svg';
 import './App.css';
 import Navigation from './Navigation'
 import Locations from './Locations'
+import Home from './Home'
 
 function App() {
   return (
     <>
  
-        <Navigation />
+      <Navigation />
+      
+      <Route path='/' exact>
+        <Home/>
+      </Route>
 
-      <h1>Rhy-Finder</h1>
-      <Route path='/locations' exact>
+        <Route path='/locations' exact>
         <Locations/>
       </Route>
+
     </>
   );
 }
