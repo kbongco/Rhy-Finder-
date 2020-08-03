@@ -1,4 +1,4 @@
-### Overview
+### Rhy-Finder
 
 **Rhy-Finder** 
 (Pronounced as 'Y-Finder')
@@ -47,7 +47,7 @@ Rhy-Finder's MVP's are:<br>
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
 | AirTable API|      yes      |http://www.airtable.com| ####|
-| Yelp API    |      yes      | http://www.yelp.com | #####|
+| Yelp API    |      yes      | http://www.yelp.com | |
 | MapBox API  |      yes      |https://www.mapbox.com/| ####|
 
 
@@ -73,6 +73,8 @@ src
       |__ AddArcade.jsx
       |__ AddMachine.jsx
       |__ ArcadeDetail.js
+      |__ DisplayMachine.js
+
       
 ```
 
@@ -91,16 +93,13 @@ src
 |    AllLocations   | functional |   n   |   y   | This will show all the locations in the form of a table|
 | AddArcade         | functional |   y   |   n   | This will allow people to add locations              |
 | AddMachine        | functional |   y   |   n  | This is a form to add machines              |
-| ArcadeDetail       | functional |   n  |   y   | This will give machine/arcade details            |
+| ArcadeDetail       | functional |   n |   y   | This will give arcade information such as machine information,address, etc         |
 
 
 <br>
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -124,8 +123,8 @@ src
 ### Post-MVP
 
 
--Add more CRUD functionality with delete and update functionality
--Add another component for the various machines in the arcade to check status and quality of machine
+-Add more CRUD functionality with delete and update functionality<br>
+-Add another component for the various machines in the arcade to check status and quality of machines<br>
 -do something with the map API to search by current location 
 
 
