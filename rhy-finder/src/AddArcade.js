@@ -7,7 +7,7 @@ export default function AddArcade(props) {
   const [City, updateCity] = useState("");
   const [State, updateState] = useState("");
 
-  console.log(props);
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,6 +27,7 @@ export default function AddArcade(props) {
         },
       }
     );
+    props.updateGetNewArcades(!props.getNewArcades)
   };
 
   return (
@@ -54,7 +55,7 @@ export default function AddArcade(props) {
           value={State}
         />
       </label>
-      <input type="submit" value="New Arcade!" />
+      <button type="submit">New Arcade</button>
     </form>
   );
 }
