@@ -12,6 +12,7 @@ export default function AddGame() {
       {
         fields: {
           RhythmGameName: RhythmGameName,
+          Images: Images
         },
       },
       {
@@ -24,24 +25,31 @@ export default function AddGame() {
   };
 
   return (
+    <div class='form'>
     <form onSubmit={handleSubmit}>
-    <h2>New Rhythm Game</h2>
-    <label htmlFor="RhythmGame">Rhythm Game Name</label>
+      <h2>New Rhythm Game</h2>
+      
+        <label htmlFor="RhythmGame">Rhythm Game Name</label>
+        <br></br>
     <input
       type="text"
       id="RhythmGame"
       onChange={(e) => updateRhythmGameName(e.target.value)}
       value={RhythmGameName}
-      />
+        />
+        <br></br>
 
-      <input
+      <label htmlFor='Image Link'>Image Link</label>
+        <input
         type="url"
         name='url'
         id='url'
         onChange={(e) => updateImages(e.target.value)}
         value={Images}
-      />
+        />
+        <br></br>
       <button type="submit">New Game</button>
       </form>
+      </div>
   )
 }

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Route } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import Navigation from "./Navigation";
 import Locations from "./Locations";
@@ -8,6 +7,7 @@ import AddArcade from "./AddArcade";
 import AddGame from "./AddGame";
 import Home from "./Home";
 import ViewRhyGames from './ViewRhyGames'
+import ViewOtherGames from './ViewOtherGames'
 // import ArcadeMap from './Map'
 import axios from "axios";
 
@@ -16,6 +16,8 @@ function App() {
   const [getNewArcades, updateGetNewArcades] = useState(false);
   const [rhythmGames, updateRhythmGames] = useState([]);
   const [getRhythmGames, updateGetRhythmGames] = useState(false);
+  const [otherGames, updateOtherGames] = useState([]);
+  const [getOtherGames, updateGetOtherGames] = useState(false)
  
 
   useEffect(() => {
@@ -48,6 +50,20 @@ function App() {
     summonRhythmGames()
   }, [getRhythmGames]);
 
+  useEffect(() => {
+    const summonOtherGames = async () => {
+      const otherGameList = await axios("https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%203?view=Grid%20view",
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+          },
+        }
+      );
+      updateOtherGames(otherGameList.data.records)
+    }
+    summonOtherGames()
+  },[getOtherGames])
+
 
 
   return (
@@ -58,7 +74,7 @@ function App() {
         <Home />
       </Route>
 
-      <Route path="/locations" exact>
+      <Route path="/locations/" exact>
         <Locations arcades={arcades} />
       </Route>
 
@@ -73,10 +89,15 @@ function App() {
         <AddGame />
       </Route>
 
-      <Route path='/viewgames'>
-        <ViewRhyGames rhythmGames={rhythmGames}/>
+      <Route path='/viewgames' exact>
+        <ViewRhyGames rhythmGames={rhythmGames} />
       </Route>
 
+      <Route path='/viewgames/othergames' exact>
+        <ViewOtherGames otherGames={otherGames} />
+      </Route>
+
+      {/* <Route path="/locations/:name" exact> */}
       {/* <Route path='/map'>
         <ArcadeMap/>
       </Route> */}

@@ -11,7 +11,7 @@ export default function ArcadeDetai() {
 
   return (
     <div>
-      <h1>{arcade.ArcadeName}</h1>
+      <h1>{arcade.fields.ArcadeName}</h1>
     </div> 
   )
 }

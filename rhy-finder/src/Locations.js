@@ -30,7 +30,7 @@ const {arcades} = props
                 <p>{arcade.fields.State}</p>
               </td>
               <td>
-              <Link to ={`/locations/${arcade.ArcadeName}`}><p>Read More</p></Link>
+              <Link to ={`/locations/${arcade.fields.ArcadeName}`}><p>Read More</p></Link>
               </td>
             </tr>
           ))}
