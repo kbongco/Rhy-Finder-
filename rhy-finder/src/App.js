@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
@@ -7,7 +7,8 @@ import Locations from "./Locations";
 import AddArcade from "./AddArcade";
 import AddGame from "./AddGame";
 import Home from "./Home";
-import ViewRhyGames from'./ViewRhyGames'
+import ViewRhyGames from './ViewRhyGames'
+// import ArcadeMap from './Map'
 import axios from "axios";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
     summonRhythmGames()
   }, [getRhythmGames]);
 
+
   return (
     <>
       <Navigation />
@@ -73,6 +75,10 @@ function App() {
       <Route path='/viewgames'>
         <ViewRhyGames/>
       </Route>
+
+      {/* <Route path='/map'>
+        <ArcadeMap/>
+      </Route> */}
     </>
   );
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useTable } from "react-table";
 import { Route, Link } from "react-router-dom";
-import axios from "axios";
+
 
 export default function ViewRhyGames(props) {
   const { rhythmGames } = props

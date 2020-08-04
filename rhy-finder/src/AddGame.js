@@ -3,6 +3,7 @@ import axios from 'axios'
 
 export default function AddGame() {
   const [RhythmGameName, updateRhythmGameName] = useState('')
+  const [RhythmGamePhoto, updateRhythmGamePhoto] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -31,6 +32,13 @@ export default function AddGame() {
       id="RhythmGame"
       onChange={(e) => updateRhythmGameName(e.target.value)}
       value={RhythmGameName}
+      />
+
+      <input
+        type="text"
+        id='piclink'
+        onChange={(e) => updateRhythmGamePhoto(e.target.value)}
+        value={RhythmGamePhoto}
       />
       <button type="submit">New Game</button>
       </form>

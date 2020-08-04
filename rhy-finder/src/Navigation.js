@@ -29,7 +29,7 @@ export default function Navigation() {
           <Link className="view-games" to="/viewgames">
             <li className="view-games">All Games</li>
           </Link>
-          <Link className="view-map" to="/map">
+          <Link className="view-map" to={"/map"}>
             <li className="view-map">Map</li>
           </Link>
         </ul>

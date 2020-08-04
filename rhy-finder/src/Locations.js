@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useTable } from "react-table";
 import { Route, Link } from "react-router-dom";
 import axios from "axios";
 
@@ -31,7 +30,7 @@ const {arcades} = props
                 <p>{arcade.fields.State}</p>
               </td>
               <td>
-              <Link to ={`/locations/${arcade.name}`}><p>Read More</p></Link>
+              <Link to ={`/locations/${arcade.ArcadeName}`}><p>Read More</p></Link>
               </td>
             </tr>
           ))}
