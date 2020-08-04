@@ -32,7 +32,7 @@ export default function AddGame() {
       onChange={(e) => updateRhythmGameName(e.target.value)}
       value={RhythmGameName}
       />
-      <input type="submit" value="New Game!" />
+      <button type="submit">New Game</button>
       </form>
   )
 }

@@ -31,7 +31,7 @@ export default function AddArcade(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='arcade' onSubmit={handleSubmit}>
       <h2>New Arcade Location </h2>
       <label htmlFor="ArcadeName">Arcade Name</label>
       <input
@@ -39,7 +39,8 @@ export default function AddArcade(props) {
         id="Arcadename"
         onChange={(e) => updateArcadeName(e.target.value)}
         value={ArcadeName}
-      />
+      /> 
+      <br></br>
       <label htmlFor="City">City</label>
       <input
         type="text"
@@ -47,15 +48,15 @@ export default function AddArcade(props) {
         onChange={(e) => updateCity(e.target.value)}
         value={City}
       />
-      <label htmlFor="State">
+      <br></br>
+      <label htmlFor="State">State</label>
         <input
           type="text"
           id="State"
           onChange={(e) => updateState(e.target.value)}
           value={State}
         />
-      </label>
-      <button type="submit">New Arcade</button>
+      <button type="submit">New Arcade</button><br></br>
     </form>
   );
 }

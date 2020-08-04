@@ -1,3 +1,10 @@
+/* Dim Gray - 666B6A
+Electric Blue - 90FCF9
+Rich Black - 070707
+Blue Pantone - 0D21A1
+Maximum Blue BEB8EB */
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav{
+  background-color:#90FCF9;
+  padding:10px;
+}
+
+.arcade{
+  max-width:500px;
+  padding:10px 20px;
+  background:#0D21A1;
+  margin:10px auto;
+  color:white;
+  padding:20px;
+  border-radius:8px;
+}
+
+.arcade input[type='text']{
+  border:none;
+  border-radius:4px;
+  font-size:14px;
+  margin: 0;
+  outline: 0;
+  padding:10px;
+  width: 100px;
+  box-sizing:border-box;
+  box-shadow: 0 1px rgba(0,0,0,0.03)
+}
+
+li {
+  text-decoration:none;
+}
+.container{
+  margin:10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0,0,0.2);
+}
+
+.designed{
+  border-radius:10px;
+  font-size:20px;
+  font-weight:normal;
+  border:none;
+  border-collapse: collapse;
+  width:100%;
+  max-width: width 100%;
+  white-space:nowrap;
+  background-color:#BEB8EB;
 }

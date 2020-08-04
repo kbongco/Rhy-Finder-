@@ -113,9 +113,9 @@ src
 | Work on arcade detail component |    L    |     3 hrs      |     TBD     |     TBD     |
 | Designing App |    M     |     4 hrs      |     TBD     |     TBD     |
 | Testing CRUD Functionaly  |    H     |     4 hrs      |     TBD     |     TBD     |
-| Create Dummy Data in Airtable/Testing Airtable  |    H     |     2 hrs      |     TBD     |     TBD     |
+| Create Dummy Data in Airtable/Testing Airtable  |    H     |     2 hrs      |     4   |   4  |
 | Create CRUD Actions |    H     |     3 hrs      |     TBD     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| TOTAL               |          |     6 hrs      |    4     |     TBD     |
 
 <br>
 
@@ -141,4 +141,4 @@ src
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+-React Table - Dropped it from my initial plans, just planning on using a regular html table to return it. Couldn't find any documentation on how to incorporate API Data and React-Table. :( 

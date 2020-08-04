@@ -1,13 +1,18 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
 import styled from "styled-components";
-// import './Navigation.css'
+
+
+// const Nav = styled.nav`
+// background-color:black;
+// `
 
 //Creating Linked Nav Bar
 export default function Navigation() {
   return (
     <div class="navigation-bar">
       <nav>
+      <img src='https://i.ibb.co/V2bbPqw/arcademachine.jpg'/>
         <ul className="navigation">
           <Link className="home" to="/" exact>
             <li className="links">home</li>
@@ -20,6 +25,9 @@ export default function Navigation() {
           </Link>
           <Link className="addgame" to="/addgame">
             <li className="add-game">Add Game</li>
+          </Link>
+          <Link className="view-games" to="/viewgames">
+            <li className="view-games">All Games</li>
           </Link>
           <Link className="view-map" to="/map">
             <li className="view-map">Map</li>

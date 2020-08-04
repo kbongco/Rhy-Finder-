@@ -8,8 +8,8 @@ export default function Locations(props) {
 const {arcades} = props
 
   return (
-    <div>
-      <table>
+    <div className='container'>
+      <table className='designed'>
         <thead>
           <tr>
             <th>Arcade Name</th>
