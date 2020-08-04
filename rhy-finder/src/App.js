@@ -35,7 +35,7 @@ function App() {
 
   useEffect(() => {
     const summonRhythmGames = async () => {
-      const rhythmGameList = await axios("https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%202?maxRecords=3&view=Grid%20view",
+      const rhythmGameList = await axios("https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%202?&view=Grid%20view",
         {
           headers: {
             Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
@@ -47,6 +47,7 @@ function App() {
     };
     summonRhythmGames()
   }, [getRhythmGames]);
+
 
 
   return (
@@ -73,7 +74,7 @@ function App() {
       </Route>
 
       <Route path='/viewgames'>
-        <ViewRhyGames/>
+        <ViewRhyGames rhythmGames={rhythmGames}/>
       </Route>
 
       {/* <Route path='/map'>

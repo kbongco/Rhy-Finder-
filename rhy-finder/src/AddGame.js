@@ -3,11 +3,11 @@ import axios from 'axios'
 
 export default function AddGame() {
   const [RhythmGameName, updateRhythmGameName] = useState('')
-  const [RhythmGamePhoto, updateRhythmGamePhoto] = useState('')
+  const [Images, updateImages] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const newArcade = await axios.post(
+    const newRhythmGame = await axios.post(
       "https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%202",
       {
         fields: {
@@ -35,10 +35,11 @@ export default function AddGame() {
       />
 
       <input
-        type="text"
-        id='piclink'
-        onChange={(e) => updateRhythmGamePhoto(e.target.value)}
-        value={RhythmGamePhoto}
+        type="url"
+        name='url'
+        id='url'
+        onChange={(e) => updateImages(e.target.value)}
+        value={Images}
       />
       <button type="submit">New Game</button>
       </form>

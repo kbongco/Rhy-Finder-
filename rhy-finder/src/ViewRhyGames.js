@@ -6,10 +6,14 @@ export default function ViewRhyGames(props) {
   const { rhythmGames } = props
   
   return (
-    // <div className='container'>
-    //   {rhythmGames.map((rhythmgame) => 
-    //   <h2>{rhythmgame.fields.RhythmGameName}</h2>)}
-    //   </div>
-    null 
+    <div className='gameshowCase'>
+      {rhythmGames.map((rhythmgame) => 
+        <h2>{rhythmgame.fields.RhythmGameName}</h2>
+          // <img className='gameMachines' src='{rhythmgame.fields.Images}' />
+
+       
+        )}
+      </div>
+    // null 
   )
 }
