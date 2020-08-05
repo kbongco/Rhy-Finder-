@@ -4,6 +4,7 @@ import axios from 'axios'
 export default function AddGame() {
   const [RhythmGameName, updateRhythmGameName] = useState('')
   const [Images, updateImages] = useState('')
+  const [Locations, updateLocations] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,7 +13,8 @@ export default function AddGame() {
       {
         fields: {
           RhythmGameName: RhythmGameName,
-          Images: Images
+          Images: Images,
+          Locations: Locations
         },
       },
       {
@@ -50,6 +52,10 @@ export default function AddGame() {
         value={Images}
         />
         <br></br>
+        {/* <select value={locations}>
+          {locations.map((location) => 
+            <option>{location.fields.ArcadeName}</option>)}
+        </select> */}
       <button type="submit">New Rhythm Game</button>
       </form>
     </div>

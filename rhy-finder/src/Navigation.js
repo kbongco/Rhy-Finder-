@@ -12,7 +12,8 @@ export default function Navigation() {
   return (
     <div class="navigation-bar">
       <nav>
-      <img src='https://i.ibb.co/V2bbPqw/arcademachine.jpg'/>
+        <img src='https://i.ibb.co/V2bbPqw/arcademachine.jpg' />
+        <h1 className='headings'>Rhy-Finder</h1>
         <ul className="navigation">
           <Link className="home" to="/" exact>
             <li className="links">home</li>
@@ -25,6 +26,9 @@ export default function Navigation() {
           </Link>
           <Link className="addgame" to="/addgame">
             <li className="add-game">Add Game</li>
+          </Link>
+          <Link className='search' to='/search'>
+            <li className='search'>Search Here</li>
           </Link>
           <Link className="view-games" to="/viewgames">
             <li className="view-games">All Games</li>

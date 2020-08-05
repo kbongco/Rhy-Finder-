@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Route, Link } from "react-router-dom";
-import axios from "axios";
+
 
 //ArcadeName, City, State
 export default function Locations(props) {

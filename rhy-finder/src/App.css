@@ -4,7 +4,6 @@ Rich Black - 070707
 Blue Pantone - 0D21A1
 Maximum Blue BEB8EB */
 
-
 .App {
   text-align: center;
 }
@@ -43,87 +42,118 @@ Maximum Blue BEB8EB */
     transform: rotate(360deg);
   }
 }
-nav{
-  background-color:#90FCF9;
-  padding:10px;
+nav {
+  background-color: #90fcf9;
+  padding: 10px;
 }
 
 li {
-  text-decoration:none;
+  text-decoration: none;
 }
-.container{
-  margin:10px 70px 70px;
-  box-shadow: 0px 35px 50px rgba(0,0,0.2);
+.container {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0.2);
 }
 
-.designed{
-  border-radius:10px;
-  font-size:20px;
-  font-weight:normal;
-  border:none;
+.designed {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
   border-collapse: collapse;
-  width:100%;
+  width: 100%;
   max-width: width 100%;
-  white-space:nowrap;
-  background-color:#BEB8EB;
+  white-space: nowrap;
+  background-color: #beb8eb;
 }
-.otherGamesShowCase{
-  display:flex;
-  flex-wrap:wrap;
-  word-wrap:break-word;
-}
-
-.gameMachines, .othergameMachines{
-  width:100px;
-  height:100px;
-}
-.gameName, .othergameName{
-  word-wrap:break-word;
+.otherGamesShowCase {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 
-.gameTitleandPic, .othergameTitleandPic{
-  overflow-wrap:break-word;
-  margin:0px 50px 0px 50px;
-  box-shadow: 0px 10px 5px rgba(0,0,0.2);
+.gameMachines,
+.othergameMachines {
+  width: 100px;
+  height: 100px;
+}
+.gameName,
+.othergameName {
+  word-wrap: break-word;
 }
 
-.form{
+.gameTitleandPic,
+.othergameTitleandPic {
+  overflow-wrap: break-word;
+  margin: 0px 50px 0px 50px;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0.2);
+}
+
+.form {
   margin: 100px 50px 50px 100px;
   border: 1px solid;
-  box-shadow:5px 10px 5px 10px;
-  border-radius:10px;
-  text-align:center;
+  box-shadow: 5px 10px 5px 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-input[type=text]{
-  width:50%;
+input[type="text"] {
+  width: 50%;
 }
 
-.gameshowCase{
-  display:flex;
-  flex-wrap:wrap;
-  word-wrap:break-word;
+.gameshowCase {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 
-.sidebar{
-  width: 45.00%;
-  background-color:#666B6A;
+.sidebar {
+  width: 45%;
+  background-color: #666b6a;
 }
-.map-container{
-left:33.3333%;
-width: 66.666%;
-top:0;
-bottom:0;
-}
-
-.right-side{
-  position:absolute;
-  right:0px;
-  width:50%;
+.map-container {
+  left: 33.3333%;
+  /* width: 66.666%; */
+  top: 0;
+  bottom: 0;
+  position: relative;
 }
 
+.right-side {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+  margin: 0px;
+}
+
+@media only screen and (max-device-width: 768px) and (min-width: 320px) {
+  .othergameMachines {
+    display: none;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display:block;
+  }
+
+  thead tr { 
+    position:absolute;
+    top: -999px;
+    left: -999px;
+  }
+  tr{
+    border:1px solid black;
+  }
+}
 /*  div -> othergamesshowCase
 className: othergameTitleandPic, 
 h2 -> othergameName 
 img -> othergameMachines */
-

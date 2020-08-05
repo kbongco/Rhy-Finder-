@@ -9,6 +9,7 @@ import ArcadeDetail from './ArcadeDetail';
 import Home from "./Home";
 import ViewRhyGames from './ViewRhyGames'
 import ViewOtherGames from './ViewOtherGames'
+import Search from './Search'
 import Map from './Map'
 import axios from "axios";
 
@@ -88,6 +89,10 @@ function App() {
 
       <Route path="/addgame">
         <AddGame />
+      </Route>
+
+      <Route path='/search'>
+        <Search/>
       </Route>
 
       <Route path='/viewgames' exact>

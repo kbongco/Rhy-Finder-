@@ -6,3 +6,5 @@ https://sparkgeo.com/blog/build-a-react-mapboxgl-component-with-hooks/
 https://blog.logrocket.com/how-to-use-mapbox-gl/
 https://levelup.gitconnected.com/react-hooks-search-an-api-ceb8b840b1ce
 https://dev.to/laney/react-mapbox-beginner-tutorial-2e35
+https://css-tricks.com/responsive-data-tables/
+https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg
