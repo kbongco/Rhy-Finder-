@@ -25,10 +25,12 @@ export default function AddGame() {
   };
 
   return (
+
+   
     <div class='form'>
     <form onSubmit={handleSubmit}>
       <h2>New Rhythm Game</h2>
-      
+      <p>Wanna add a non-rythm game? Follow this link</p>
         <label htmlFor="RhythmGame">Rhythm Game Name</label>
         <br></br>
     <input
@@ -48,8 +50,8 @@ export default function AddGame() {
         value={Images}
         />
         <br></br>
-      <button type="submit">New Game</button>
+      <button type="submit">New Rhythm Game</button>
       </form>
-      </div>
+    </div>
   )
 }

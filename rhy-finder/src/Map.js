@@ -1,46 +1,33 @@
-import React, { useState } from "react";
-import MapGL, { GeolocateControl } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
+import React, { useRef, useEffect } from 'react';
+import mapboxgl from 'mapbox-gl';
 
-const TOKEN = process.env.REACT_APP_MAPBOX_KEY;
-
-const geolocateStyled = {
-  float: "left",
-  margin: "40px",
-  padding: "10px",
-};
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY
 
 const Map = () => {
-  const [viewport, setViewPort] = useState({
-    width: "100%",
-    height: 900,
-    latitude: 0,
-    longtitude: 0,
-    zoom: 1,
-  });
+  const mapContainerRef = useRef(null)
 
-  const _onViewPortChange = (viewport) =>
-    setViewPort({ ...viewport, transitionDuration: 2000 });
+  useEffect(() => {
+    const map = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-73.935242, 40.730610],
+      zoom: 12.5,
+    });
+
+    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+
+    return () => map.remove();
+  }, []);
 
   return (
-    <div style={{ margin: "0 auto" }}>
-      <h1 style={{ textAlign: center, fontSize: "20px", fontWeight: "bold" }}>
-        Search for an arcade!<a href="/search">here</a>
-      </h1>
-      <MapGL
-        {...viewport}
-        mapboxApiToken={TOKEN}
-        mapStyle='mapbox://styles/mapbox/dark-v8'
-        onViewportChange={_onViewportChange}
-      >
-        <GeolocateControl 
-          style={geolocateStyle}
-          positionOptons={{ enableHighAccuracy: true }}
-          trackUserLocation={true}
-          />
-        </MapGL>
+    <div>
+      <h1>Search Here</h1>
+      <div className='map-container' ref={mapContainerRef} />
+      <div className='right-side'>
+        <p>Dummy Information</p>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Map 
+export default Map;

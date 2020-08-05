@@ -67,7 +67,7 @@ li {
   white-space:nowrap;
   background-color:#BEB8EB;
 }
-.gameshowCase, .otherGamesShowCase{
+.otherGamesShowCase{
   display:flex;
   flex-wrap:wrap;
   word-wrap:break-word;
@@ -99,6 +99,28 @@ input[type=text]{
   width:50%;
 }
 
+.gameshowCase{
+  display:flex;
+  flex-wrap:wrap;
+  word-wrap:break-word;
+}
+
+.sidebar{
+  width: 45.00%;
+  background-color:#666B6A;
+}
+.map-container{
+left:33.3333%;
+width: 66.666%;
+top:0;
+bottom:0;
+}
+
+.right-side{
+  position:absolute;
+  right:0px;
+  width:50%;
+}
 
 /*  div -> othergamesshowCase
 className: othergameTitleandPic, 

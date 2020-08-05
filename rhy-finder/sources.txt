@@ -4,3 +4,5 @@ https://www.digitalocean.com/community/tutorials/how-to-display-data-from-the-di
 https://csshint.com/html-css-table/
 https://sparkgeo.com/blog/build-a-react-mapboxgl-component-with-hooks/
 https://blog.logrocket.com/how-to-use-mapbox-gl/
+https://levelup.gitconnected.com/react-hooks-search-an-api-ceb8b840b1ce
+https://dev.to/laney/react-mapbox-beginner-tutorial-2e35

@@ -5,10 +5,11 @@ import Navigation from "./Navigation";
 import Locations from "./Locations";
 import AddArcade from "./AddArcade";
 import AddGame from "./AddGame";
+import ArcadeDetail from './ArcadeDetail';
 import Home from "./Home";
 import ViewRhyGames from './ViewRhyGames'
 import ViewOtherGames from './ViewOtherGames'
-// import ArcadeMap from './Map'
+import Map from './Map'
 import axios from "axios";
 
 function App() {
@@ -97,10 +98,13 @@ function App() {
         <ViewOtherGames otherGames={otherGames} />
       </Route>
 
-      {/* <Route path="/locations/:name" exact> */}
-      {/* <Route path='/map'>
-        <ArcadeMap/>
-      </Route> */}
+      <Route path="/locations/:name" exact>
+        <ArcadeDetail arcades={arcades}/>
+      </Route>
+
+      <Route path='/map'>
+        <Map/>
+      </Route>
     </>
   );
 }
