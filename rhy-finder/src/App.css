@@ -89,7 +89,7 @@ li {
   box-shadow: 0px 10px 5px rgba(0, 0, 0.2);
 }
 
-.form {
+.form, .searcharcade {
   margin: 100px 50px 50px 100px;
   border: 1px solid;
   box-shadow: 5px 10px 5px 10px;
@@ -151,6 +151,17 @@ nav li {
   }
   tr{
     border:1px solid black;
+  }
+  .navigation{
+    padding:5px;
+    left: 0px;
+    width:150px;
+  }
+  nav li ul{
+    list-style-type:none;
+    padding:35px;
+    margin-left:0;
+    border-right:none;
   }
 }
 /*  div -> othergamesshowCase

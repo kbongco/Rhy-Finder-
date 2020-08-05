@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import axios from 'axios'
 
-export default function AddGame() {
+export default function AddGame(props) {
   const [RhythmGameName, updateRhythmGameName] = useState('')
   const [Images, updateImages] = useState('')
   const [Locations, updateLocations] = useState('')
+  const { arcades } = props
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -14,7 +16,7 @@ export default function AddGame() {
         fields: {
           RhythmGameName: RhythmGameName,
           Images: Images,
-          Locations: Locations
+          Locations: [Locations]
         },
       },
       {
@@ -32,7 +34,8 @@ export default function AddGame() {
     <div class='form'>
     <form onSubmit={handleSubmit}>
       <h2>New Rhythm Game</h2>
-      <p>Wanna add a non-rythm game? Follow this link</p>
+        <p>Wanna add a non-rhythm game? Go 
+        <Link to={`/addgame/othergames`}>Here</Link></p>
         <label htmlFor="RhythmGame">Rhythm Game Name</label>
         <br></br>
     <input
@@ -52,10 +55,11 @@ export default function AddGame() {
         value={Images}
         />
         <br></br>
-        {/* <select value={locations}>
-          {locations.map((location) => 
-            <option>{location.fields.ArcadeName}</option>)}
-        </select> */}
+        <select value={Locations} onChange={(e) => updateLocations(e.target.value)}>
+          <option value=''>Select an arcade </option>
+          {arcades.map((arcade) => 
+            <option value={arcade.id}>{arcade.fields.ArcadeName}</option>)}
+        </select>
       <button type="submit">New Rhythm Game</button>
       </form>
     </div>

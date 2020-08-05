@@ -1,8 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import ArcadeGame from './DisplayArcadeGame'
 
 //2nd Airtable names for columns --> RhythmGameName, Images,Locations
-export default function ArcadeDetai(props) {
+export default function ArcadeDetail(props) {
   const params = useParams();
 
   const arcade = props.arcades.find((a) => a.fields.ArcadeName === params.name);
@@ -15,6 +16,9 @@ export default function ArcadeDetai(props) {
         <p>Address</p>
         <p>Hours</p>
       </p>
+      <div className="rhygames-here">
+        {/* <DisplayArcadeGame />  */}
+      </div>
     </div>
   );
 }

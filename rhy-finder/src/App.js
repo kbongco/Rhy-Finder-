@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
 import Navigation from "./Navigation";
@@ -11,7 +11,9 @@ import ViewRhyGames from './ViewRhyGames'
 import ViewOtherGames from './ViewOtherGames'
 import Search from './Search'
 import Map from './Map'
+import ArcadeGame from './DisplayArcadeGame'
 import axios from "axios";
+
 
 function App() {
   const [arcades, updateArcades] = useState([]);
@@ -88,11 +90,11 @@ function App() {
       </Route>
 
       <Route path="/addgame">
-        <AddGame />
+        <AddGame arcades={arcades}/>
       </Route>
 
       <Route path='/search'>
-        <Search/>
+        <Search arcades={arcades}/>
       </Route>
 
       <Route path='/viewgames' exact>

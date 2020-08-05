@@ -1,11 +1,8 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
-// const Nav = styled.nav`
-// background-color:black;
-// `
+
 
 //Creating Linked Nav Bar
 export default function Navigation() {
