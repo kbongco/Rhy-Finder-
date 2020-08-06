@@ -117,7 +117,7 @@ function App() {
       </Route>
 
       <Route path="/locations/:name" exact>
-        <ArcadeDetail arcades={arcades} rhythmGames={rhythmGames} />
+        <ArcadeDetail arcades={arcades} rhythmGames={rhythmGames} otherGames={otherGames}/>
       </Route>
 
       <Route path="/map">

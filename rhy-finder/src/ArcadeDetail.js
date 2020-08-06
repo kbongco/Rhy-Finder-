@@ -20,8 +20,8 @@ export default function ArcadeDetail(props) {
       </p>
       </div>
       <div className="rhygames-here">
-        <h2>{arcade.fields.RhythmGamesHere}</h2>
-        <ArcadeGame />
+        <h2 className='rhy-gamename'>{arcade.fields.RhythmGamesHere}</h2><br></br>
+        <ArcadeGame rhythmGames={props.rhythmGames} arcadeId={arcade.id}/>
       </div>
     </div>
   );

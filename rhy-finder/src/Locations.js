@@ -21,12 +21,12 @@ const {arcades} = props
           {arcades.map((arcade) => (
             <tr>
               <td>
-                <h2>{arcade.fields.ArcadeName}</h2>
+                <p>{arcade.fields.ArcadeName}</p>
               </td>
-              <td>
+              <td className='none-mobile'>
                 <h3>{arcade.fields.City}</h3>
               </td>
-              <td>
+              <td className='none-mobile'>
                 <p>{arcade.fields.State}</p>
               </td>
               <td>
