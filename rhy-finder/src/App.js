@@ -12,6 +12,7 @@ import ViewOtherGames from './ViewOtherGames'
 import Search from './Search'
 import Map from './Map'
 import ArcadeGame from './DisplayArcadeGame'
+import { getArcades } from './LocationData'
 import axios from "axios";
 
 
@@ -21,7 +22,13 @@ function App() {
   const [rhythmGames, updateRhythmGames] = useState([]);
   const [getRhythmGames, updateGetRhythmGames] = useState(false);
   const [otherGames, updateOtherGames] = useState([]);
-  const [getOtherGames, updateGetOtherGames] = useState(false)
+  const [getOtherGames, updateGetOtherGames] = useState(false);
+  const [arcadeLocations, updateArcadeLocations] = useState([]);
+  const [location, updateLocation] = useState({
+    lat = 40.730610,
+    long = -73.935242
+  })
+
  
 
   useEffect(() => {
@@ -66,8 +73,14 @@ function App() {
       updateOtherGames(otherGameList.data.records)
     }
     summonOtherGames()
-  },[getOtherGames])
-
+  }, [getOtherGames])
+  
+  useEffect(() => {
+    const mapArcades = async () => {
+      updateArcadeLocations(await getArcades(location.lat, location, long));
+    };
+    mapArcades();
+  },[location])
 
 
   return (

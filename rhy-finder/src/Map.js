@@ -1,34 +1,31 @@
-import React, { useRef, useEffect } from 'react';
-import mapboxgl from 'mapbox-gl';
+import React, { useState, useEffect } from "react";
+import ReactMapGL, { Marker, Popup } from "react-map-gl";
+import mapboxgl from "mapbox-gl";
+import { render } from "react-dom";
+import MapGL from "react-map-gl";
 
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_KEY;
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY
-
-const Map = () => {
-  const mapContainerRef = useRef(null)
-
-  useEffect(() => {
-    const map = new mapboxgl.Map({
-      container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-73.935242, 40.730610],
-      zoom: 12.5,
-    });
-
-    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-
-    return () => map.remove();
-  }, []);
+export default function Map() {
+  const [viewport, setViewport] = useState({
+    latitude: 40.73061,
+    longitude: -73.935242,
+    zoom: 14,
+    bearing: 0,
+    pitch: 0,
+  });
+  const [popUp, updatePopUp] = useState({
+    arcade: null,
+  });
 
   return (
-    <div>
-      <h1>Search Here</h1>
-      <div className='map-container' ref={mapContainerRef} />
-      <div className='right-side'>
-        <p>Dummy Information</p>
-      </div>
-    </div>
-  )
+    <MapGL
+      {...viewport}
+      width="100vw"
+      height="100vh"
+      mapStyle="mapbox://styles/kbongco/ckdhtsuz306hu1in2tnszgtpf"
+      onViewportChange={(nextViewport) => setViewport(nextViewport)}
+      mapboxApiAccessToken={MAPBOX_TOKEN}
+    />
+  );
 }
-
-export default Map;
