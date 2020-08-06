@@ -5,14 +5,21 @@ import { useParams } from "react-router-dom";
 
 export default function OtherCoolGames(props) {
   const params = useParams()
-  console.log(props)
+  console.log(props.arcadeId)
+  if (!props.otherGames.length) return null;
+  console.log(props.otherGames[0].fields['Table 1'].includes(1))
+  const matchingGames = props.otherGames.filter((o) => { 
+    console.log(o)
+    if(!o.fields.hasOwnProperty('Table 1')) return false
+    return o.fields['Table 1'].includes(props.arcadeId)
+  });
 
-  const othergames = props.otherGames.find((o) => o.fields['Table 1'].includes(props.arcadeId));
 
-  if (othergames === undefined) return "What arcade has no games?"
+  if (matchingGames === undefined) return "What arcade has no games?"
   return (
     <div className='othergame-container'>
-      <img className='othergameMachines' src={othergames.fields.Images}/>
+      {matchingGames.map((o)=> <img className='othergameMachines' src={o.fields.Images}/> )}
+      
     </div>
   )
 }

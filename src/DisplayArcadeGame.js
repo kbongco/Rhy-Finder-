@@ -5,12 +5,11 @@ import { useParams } from "react-router-dom";
 //Rhythm Games Component to show on detail page 
 export default function ArcadeGame(props) {
   const params = useParams()
-  console.log(props)
-  console.log(params)
+
   const rhythmgame = props.rhythmGames.find((r) => r.fields.Locations.includes(props.arcadeId) );
   if (rhythmgame === undefined) return "No Rhythm Games here :( "
   // const rhythmgame = props.rhythmGames.find((r) => r.fields.Images === params.Images);
-  console.log(rhythmgame.fields)
+
   return (
     <div className='pic-container'>
       {/* {rhythmGames.map((rhythmgames) => (
