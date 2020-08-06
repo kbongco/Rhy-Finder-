@@ -13,7 +13,7 @@ import Search from "./Search";
 import Map from "./Map";
 import ArcadeGame from "./DisplayArcadeGame";
 // import { getArcades } from './LocationData'
-import Footer from './Footer'
+import Footer from "./Footer";
 import axios from "axios";
 
 function App() {
@@ -117,18 +117,21 @@ function App() {
       </Route>
 
       <Route path="/locations/:name" exact>
-        <ArcadeDetail arcades={arcades} rhythmGames={rhythmGames} otherGames={otherGames}/>
+        <ArcadeDetail
+          arcades={arcades}
+          rhythmGames={rhythmGames}
+          otherGames={otherGames}
+        />
       </Route>
 
       <Route path="/map">
         <Map />
       </Route>
 
-       <footer className='footer'>
+      <footer className="footer">
         <Footer />
-      </footer> 
+      </footer>
     </>
-
   );
 }
 
