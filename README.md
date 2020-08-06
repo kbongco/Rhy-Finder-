@@ -36,6 +36,7 @@ Rhy-Finder's MVP's are:<br>
 |   React Table    | Have data from form organized  |
 |   React Map GL   | To have help maps show locations |
 |  StyledComponents  | Help Styling for app  |
+|  Axios     |     For getting data from API | 
 
 
 <br>
@@ -44,11 +45,11 @@ Rhy-Finder's MVP's are:<br>
 
 > Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
-|    API     | Quality Docs? | Website       | Sample Query                            |
-| :--------: | :-----------: | :------------ | :-------------------------------------- |
-| AirTable API|      yes      |http://www.airtable.com| ####|
+|    API     | Quality Docs? | Website      
+| :--------: | :-----------: | :------------ | 
+| AirTable API|      yes      |http://www.airtable.com|
 | Yelp API    |      yes      | http://www.yelp.com | |
-| MapBox API  |      yes      |https://www.mapbox.com/| ####|
+| MapBox API  |      yes      |https://www.mapbox.com/| 
 
 
 <br>
@@ -112,9 +113,9 @@ src
 | Work on arcade detail component |    L    |     3 hrs      |     TBD     |     TBD     |
 | Designing App |    M     |     4 hrs      |     TBD     |     TBD     |
 | Testing CRUD Functionaly  |    H     |     4 hrs      |     TBD     |     TBD     |
-| Create Dummy Data in Airtable/Testing Airtable  |    H     |     2 hrs      |     TBD     |     TBD     |
+| Create Dummy Data in Airtable/Testing Airtable  |    H     |     2 hrs      |     4   |   4  |
 | Create CRUD Actions |    H     |     3 hrs      |     TBD     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| TOTAL               |          |     6 hrs      |    4     |     TBD     |
 
 <br>
 
@@ -140,4 +141,4 @@ src
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+-React Table - Dropped it from my initial plans, just planning on using a regular html table to return it. Couldn't find any documentation on how to incorporate API Data and React-Table. :( 
