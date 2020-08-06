@@ -26,7 +26,7 @@ export default function ArcadeDetail(props) {
           </ul>
         <br></br>
         <ArcadeGame rhythmGames={props.rhythmGames} arcadeId={arcade.id} />
-        {/* <OtherCoolGames otherGames = {props.otherGames} arcadeId={arcade.id} /> */}
+        <OtherCoolGames otherGames = {props.otherGames} arcadeId={arcade.id} />
       </div>
     </div>
   );

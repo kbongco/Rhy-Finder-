@@ -5,8 +5,9 @@ import { useParams } from "react-router-dom";
 
 export default function OtherCoolGames(props) {
   const params = useParams()
+  console.log(props)
 
-  const othergames = props.otherGames.find((o) => o.fields.locations.include(props.arcadeId));
+  const othergames = props.otherGames.find((o) => o.fields['Table 1'].includes(props.arcadeId));
 
   if (othergames === undefined) return "What arcade has no games?"
   return (
