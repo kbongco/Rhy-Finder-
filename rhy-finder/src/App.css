@@ -184,17 +184,18 @@ nav li {
     padding-right:10px;
     white-space: nowrap;
   }
+}
 
-  nav{
-    display:block;
-  }
+ 
   @media screen and (max-width:375px){
     .none-mobile{
       display:none;
     }
   }
 
-}
+
+
+
 
 /*  div -> othergamesshowCase
 className: othergameTitleandPic, 

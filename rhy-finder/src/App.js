@@ -124,9 +124,9 @@ function App() {
         <Map />
       </Route>
 
-      <footer className='footer'>
+       <footer className='footer'>
         <Footer />
-      </footer>
+      </footer> 
     </>
 
   );
