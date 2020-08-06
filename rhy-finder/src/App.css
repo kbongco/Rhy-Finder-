@@ -45,7 +45,9 @@ Maximum Blue BEB8EB */
 nav {
   background-color: #90fcf9;
   padding: 10px;
+
 }
+
 
 li {
   text-decoration: none;
@@ -108,7 +110,7 @@ input[type="text"] {
 }
 
 .sidebar {
-  width: 45%;
+  width:35%;
   background-color: #666b6a;
 }
 .map-container {
@@ -134,7 +136,20 @@ nav li {
   padding: 20px;
   margin: 0px;
 }
+nav{
+  
+}
 
+.footer{
+  position:fixed;
+  left: 0; 
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color:white;
+  text-align: center;
+  font-size:12px;
+}
 @media only screen and (max-device-width: 768px) and (min-width: 320px) {
   .othergameMachines {
     display: none;

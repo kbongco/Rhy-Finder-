@@ -9,15 +9,19 @@ export default function ArcadeDetail(props) {
   const arcade = props.arcades.find((a) => a.fields.ArcadeName === params.name);
   if (arcade === undefined) return "Loading...";
   return (
+    <div className='details'>
     <div className="sidebar">
+      
       <h1>{arcade.fields.ArcadeName}</h1>
       <p>
         other information
         <p>Address</p>
         <p>Hours</p>
       </p>
+      </div>
       <div className="rhygames-here">
-        {/* <DisplayArcadeGame />  */}
+        <h2>{arcade.fields.RhythmGamesHere}</h2>
+        <ArcadeGame />
       </div>
     </div>
   );

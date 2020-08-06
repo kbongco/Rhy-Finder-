@@ -1,20 +1,20 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
 import Navigation from "./Navigation";
 import Locations from "./Locations";
 import AddArcade from "./AddArcade";
 import AddGame from "./AddGame";
-import ArcadeDetail from './ArcadeDetail';
+import ArcadeDetail from "./ArcadeDetail";
 import Home from "./Home";
-import ViewRhyGames from './ViewRhyGames'
-import ViewOtherGames from './ViewOtherGames'
-import Search from './Search'
-import Map from './Map'
-import ArcadeGame from './DisplayArcadeGame'
-import { getArcades } from './LocationData'
+import ViewRhyGames from "./ViewRhyGames";
+import ViewOtherGames from "./ViewOtherGames";
+import Search from "./Search";
+import Map from "./Map";
+import ArcadeGame from "./DisplayArcadeGame";
+// import { getArcades } from './LocationData'
+import Footer from './Footer'
 import axios from "axios";
-
 
 function App() {
   const [arcades, updateArcades] = useState([]);
@@ -25,11 +25,9 @@ function App() {
   const [getOtherGames, updateGetOtherGames] = useState(false);
   const [arcadeLocations, updateArcadeLocations] = useState([]);
   const [location, updateLocation] = useState({
-    lat = 40.730610,
-    long = -73.935242
-  })
-
- 
+    lat: 40.73061,
+    long: -73.935242,
+  });
 
   useEffect(() => {
     const arcadeSummon = async () => {
@@ -48,40 +46,40 @@ function App() {
 
   useEffect(() => {
     const summonRhythmGames = async () => {
-      const rhythmGameList = await axios("https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%202?&view=Grid%20view",
+      const rhythmGameList = await axios(
+        "https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%202?&view=Grid%20view",
         {
           headers: {
             Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
           },
         }
-
       );
       updateRhythmGames(rhythmGameList.data.records);
     };
-    summonRhythmGames()
+    summonRhythmGames();
   }, [getRhythmGames]);
 
   useEffect(() => {
     const summonOtherGames = async () => {
-      const otherGameList = await axios("https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%203?view=Grid%20view",
+      const otherGameList = await axios(
+        "https://api.airtable.com/v0/app7jwOkPMaOOh53m/Table%203?view=Grid%20view",
         {
           headers: {
             Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
           },
         }
       );
-      updateOtherGames(otherGameList.data.records)
-    }
-    summonOtherGames()
-  }, [getOtherGames])
-  
-  useEffect(() => {
-    const mapArcades = async () => {
-      updateArcadeLocations(await getArcades(location.lat, location, long));
+      updateOtherGames(otherGameList.data.records);
     };
-    mapArcades();
-  },[location])
+    summonOtherGames();
+  }, [getOtherGames]);
 
+  // useEffect(() => {
+  //   const mapArcades = async () => {
+  //     updateArcadeLocations(await getArcades(location.lat, location, long));
+  //   };
+  //   mapArcades();
+  // },[location])
 
   return (
     <>
@@ -103,29 +101,34 @@ function App() {
       </Route>
 
       <Route path="/addgame">
-        <AddGame arcades={arcades}/>
+        <AddGame arcades={arcades} />
       </Route>
 
-      <Route path='/search'>
-        <Search arcades={arcades}/>
+      <Route path="/search">
+        <Search arcades={arcades} />
       </Route>
 
-      <Route path='/viewgames' exact>
+      <Route path="/viewgames" exact>
         <ViewRhyGames rhythmGames={rhythmGames} />
       </Route>
 
-      <Route path='/viewgames/othergames' exact>
+      <Route path="/viewgames/othergames" exact>
         <ViewOtherGames otherGames={otherGames} />
       </Route>
 
       <Route path="/locations/:name" exact>
-        <ArcadeDetail arcades={arcades}/>
+        <ArcadeDetail arcades={arcades} rhythmGames={rhythmGames} />
       </Route>
 
-      <Route path='/map'>
-        <Map/>
+      <Route path="/map">
+        <Map />
       </Route>
+
+      <footer className='footer'>
+        <Footer />
+      </footer>
     </>
+
   );
 }
 
