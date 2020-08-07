@@ -45,7 +45,6 @@ Maximum Blue BEB8EB */
 nav {
   background-color: #90fcf9;
   padding: 10px;
-  
 }
 
 li {
@@ -112,8 +111,8 @@ input[type="text"] {
 .sidebar {
   width: 100%;
   background-color: #666b6a;
-  float:left;
-  color:white;
+  float: left;
+  color: white;
 }
 .map-container {
   left: 33.3333%;
@@ -150,94 +149,86 @@ nav li {
   font-size: 12px;
 }
 .pic-container,
-.rhy-gamename{
+.rhy-gamename {
   float: right;
 }
 
-
-
-input{
-  margin-bottom:20px;
+input {
+  margin-bottom: 20px;
 }
-
-
-
 
 @media only screen and (max-device-width: 768px) and (min-width: 320px) {
   .othergameMachines {
     display: none;
   }
 
-  table, thead, tbody, th, td, tr {
-    display:block;
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
   }
 
   thead tr {
-    position:absolute;
+    position: absolute;
     top: -9999px;
     left: -9999px;
   }
 
-  tr{
+  tr {
     border: 1px solid black;
   }
 
-  td{
-    border:none;
+  td {
+    border: none;
     border-bottom: 1px solid black;
     position: relative;
-    font-size:12px;
+    font-size: 12px;
   }
-  td:before{
-    position:absolute;
+  td:before {
+    position: absolute;
     top: 6px;
     left: 6px;
-    width:55%;
-    padding-right:10px;
+    width: 55%;
+    padding-right: 10px;
     white-space: nowrap;
   }
   nav Link {
-    display:block;
-    right:0;
+    display: block;
+    right: 0;
     top: 0;
   }
 }
 
- 
-  @media screen and (max-width:375px){
-    .none-mobile{
-      display:none;
-    }
+@media screen and (max-width: 375px) {
+  .none-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-bar {
+    overflow: hidden;
+    position: relative;
+  }
+  .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
 
-  @media screen and (max-width:768px){
-    .navigation-bar{
-      overflow:hidden;
-      position:relative;
-    }
-    .navigation {
-      list-style-type:none;
-      margin:0;
-      padding:0;
-      overflow:hidden;
-
-    }
-
-nav li {
-  display: flex;
-  padding: 5px;
-  margin: 0px;
-}
-.headings{
-  display:flex;
-}
+  nav li {
+    display: flex;
+    padding: 5px;
+    margin: 0px;
   }
-
-  
-
-
-
-
+  .headings {
+    display: flex;
+  }
+}
 
 /*  div -> othergamesshowCase
 className: othergameTitleandPic, 
