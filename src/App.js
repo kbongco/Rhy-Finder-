@@ -12,8 +12,7 @@ import ViewOtherGames from "./ViewOtherGames";
 import Search from "./Search";
 import Map from "./Map";
 import ArcadeGame from "./DisplayArcadeGame";
-import OtherCoolGames from './DisplayOtherGames'
-// import { getArcades } from './LocationData'
+import OtherCoolGames from "./DisplayOtherGames";
 import Footer from "./Footer";
 import axios from "axios";
 
@@ -25,10 +24,6 @@ function App() {
   const [otherGames, updateOtherGames] = useState([]);
   const [getOtherGames, updateGetOtherGames] = useState(false);
   const [arcadeLocations, updateArcadeLocations] = useState([]);
-  const [location, updateLocation] = useState({
-    lat: 40.73061,
-    long: -73.935242,
-  });
 
   useEffect(() => {
     const arcadeSummon = async () => {
@@ -74,7 +69,6 @@ function App() {
     };
     summonOtherGames();
   }, [getOtherGames]);
-
 
   return (
     <>

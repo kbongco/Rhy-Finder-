@@ -6,7 +6,10 @@ export default function Navigation() {
   return (
     <div class="navigation-bar">
       <nav>
-        <img className='navicon' src="https://i.ibb.co/V2bbPqw/arcademachine.jpg" />
+        <img
+          className="navicon"
+          src="https://i.ibb.co/V2bbPqw/arcademachine.jpg"
+        />
         <h1 className="headings">Rhy-Finder</h1>
         <ul className="navigation">
           <Link className="home" to="/" exact>
