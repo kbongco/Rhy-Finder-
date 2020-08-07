@@ -17,7 +17,6 @@ Rhythm gamers enjoy, as the name implies Japanese music games. Game such as thes
 ### MVP/Goals
 
 Rhy-Finder's MVP's are:<br>
--to have a map showing various arcades in the NJ/NY area<br>
 -have a search bar for searching various arcades and their locations<br>
 -have a working form for people to add locations/machines<br>
 -have a detailed page working showing arcade and machines<br>
@@ -127,6 +126,7 @@ src
 -Add more CRUD functionality with delete and update functionality<br>
 -Add another component for the various machines in the arcade to check status and quality of machines<br>
 -do something with the map API to search by current location 
+-to have a map showing various arcades in the NJ/NY area<br>
 
 
 <br>
@@ -142,3 +142,4 @@ src
 ### Code Issues & Resolutions
 
 -React Table - Dropped it from my initial plans, just planning on using a regular html table to return it. Couldn't find any documentation on how to incorporate API Data and React-Table. :( 
+-moved having a working map to PMVP, a map is up and running but due to loss of time from storm and such time was lost in trying to figure out how to get markers up and running. 

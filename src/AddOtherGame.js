@@ -28,7 +28,7 @@ export default function AddOtherGame() {
       <form onSubmit={handleSubmit}>
         <h2>New Game</h2>
         <p>
-          Wanna add a rhythm game? Follow this
+          Wanna add a tesyrhythm game? Follow this
           <Link to={`/addgame`}>Link</Link>
         </p>
         <label htmlFor="OtherCoolGames">Other Game Name</label>

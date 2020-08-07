@@ -18,7 +18,7 @@ export default function OtherCoolGames(props) {
   if (matchingGames === undefined) return "What arcade has no games?"
   return (
     <div className='othergame-container'>
-      {matchingGames.map((o)=> <img className='othergameMachines' src={o.fields.Images}/> )}
+      {matchingGames.map((o)=> <img className='coolgameMachines' src={o.fields.Images}/> )}
       
     </div>
   )

@@ -75,12 +75,6 @@ function App() {
     summonOtherGames();
   }, [getOtherGames]);
 
-  // useEffect(() => {
-  //   const mapArcades = async () => {
-  //     updateArcadeLocations(await getArcades(location.lat, location, long));
-  //   };
-  //   mapArcades();
-  // },[location])
 
   return (
     <>

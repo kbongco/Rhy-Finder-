@@ -22,17 +22,4 @@ export default function ArcadeGame(props) {
     </div>
   )
 
-  // const rhythmgame = props.rhythmGames.find((r) => r.fields.Locations.includes(props.arcadeId) );
-  // if (rhythmgame === undefined) return "No Rhythm Games here :( "
-  // // const rhythmgame = props.rhythmGames.find((r) => r.fields.Images === params.Images);
-
-  // return (
-  //   <div className='pic-container'>
-  //     {/* {rhythmGames.map((rhythmgames) => (
-  //       <img className='gameMachine' src={rhythmgames.fields.Images}/>
-  //     ))} */}
-  //   <img className="gameMachines" src={rhythmgame.fields.Images}/>
-  //     {/* console.log(rhythmgame.fileds.image) */}
-  //   </div>
-  // )
 }

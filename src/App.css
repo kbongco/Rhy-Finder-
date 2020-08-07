@@ -45,6 +45,7 @@ Maximum Blue BEB8EB */
 nav {
   background-color: #90fcf9;
   padding: 10px;
+  
 }
 
 li {
@@ -153,10 +154,7 @@ nav li {
   float: right;
 }
 
-.headings{
-  float:right;
-  position:justify;
-}
+
 
 input{
   margin-bottom:20px;
@@ -198,6 +196,11 @@ input{
     padding-right:10px;
     white-space: nowrap;
   }
+  nav Link {
+    display:block;
+    right:0;
+    top: 0;
+  }
 }
 
  
@@ -213,10 +216,21 @@ input{
       position:relative;
     }
     .navigation {
-      color:blue;
-      padding:14px 16px;
-      display:block;
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+
     }
+
+nav li {
+  display: flex;
+  padding: 5px;
+  margin: 0px;
+}
+.headings{
+  display:flex;
+}
   }
 
   
