@@ -18,7 +18,7 @@ export default function Search(props) {
 
   return (
     <div className="searcharcade">
-      <h1>Search test for an arcade here!</h1>
+      <h1>Search for an arcade here!</h1>
       <input
         type="text"
         placeholder="Dave and Busters"

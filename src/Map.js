@@ -3,6 +3,7 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import mapboxgl from "mapbox-gl";
 import { render } from "react-dom";
 import MapGL from "react-map-gl";
+import * as getArcades from './data/locations.json'
 
 const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_KEY;
 
@@ -26,6 +27,16 @@ export default function Map() {
       mapStyle="mapbox://styles/kbongco/ckdhtsuz306hu1in2tnszgtpf"
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
       mapboxApiAccessToken={MAPBOX_TOKEN}
-    />
+    >
+
+      {getArcades.businesses.map(arcade => (
+        <Marker 
+          latitude={parseFloat(arcade.coordinates.latitude)}
+          longitude={parseFloat(arcade.coordinates.longitude)}>
+          <div>ARCADE</div>
+          </Marker>
+      ))}
+      
+      </MapGL>
   );
 }
