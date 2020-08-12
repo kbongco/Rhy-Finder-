@@ -1,0 +1,868 @@
+{
+  "businesses": [
+      {
+          "id": "LfT7DQvlY5ugSkBkrO8_mA",
+          "alias": "wonderville-brooklyn",
+          "name": "Wonderville",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8s1hc6yB3M3u3rD37669lQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/wonderville-brooklyn?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 10,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "venues",
+                  "title": "Venues & Event Spaces"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 40.69245,
+              "longitude": -73.92751
+          },
+          "transactions": [],
+          "location": {
+              "address1": "1186 Broadway",
+              "address2": "",
+              "address3": null,
+              "city": "Brooklyn",
+              "zip_code": "11221",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "1186 Broadway",
+                  "Brooklyn, NY 11221"
+              ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 4299.936223868054
+      },
+      {
+          "id": "WqwC1I8YrNur8ND486wUtw",
+          "alias": "laser-bounce-glendale-2",
+          "name": "Laser Bounce",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/9Qmary-8_nWLv5ErWB0Qew/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/laser-bounce-glendale-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 55,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "kids_activities",
+                  "title": "Kids Activities"
+              },
+              {
+                  "alias": "lasertag",
+                  "title": "Laser Tag"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.708118,
+              "longitude": -73.868037
+          },
+          "transactions": [],
+          "location": {
+              "address1": "80-28 Cooper Ave",
+              "address2": "",
+              "address3": "",
+              "city": "Glendale",
+              "zip_code": "11385",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "80-28 Cooper Ave",
+                  "Glendale, NY 11385"
+              ]
+          },
+          "phone": "+13475991919",
+          "display_phone": "(347) 599-1919",
+          "distance": 6191.389745678224
+      },
+      {
+          "id": "UPOtComj8_OlNLSmd3zh1w",
+          "alias": "barcade-brooklyn",
+          "name": "Barcade",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rHoM17h-bUBm5v8c8glM6Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/barcade-brooklyn?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 1050,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.71204,
+              "longitude": -73.95113
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "388 Union Ave",
+              "address2": "",
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11211",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "388 Union Ave",
+                  "Brooklyn, NY 11211"
+              ]
+          },
+          "phone": "+17183026464",
+          "display_phone": "(718) 302-6464",
+          "distance": 2456.686983925787
+      },
+      {
+          "id": "arEOjcGWE2GhIMAXywtiew",
+          "alias": "two-bits-retro-arcade-new-york",
+          "name": "Two-Bit's Retro Arcade",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/B4-a_cEsk21gvj9iHTsmCA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/two-bits-retro-arcade-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 245,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "divebars",
+                  "title": "Dive Bars"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.7206434531628,
+              "longitude": -73.9871944404755
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "153 Essex St",
+              "address2": "",
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10002",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "153 Essex St",
+                  "New York, NY 10002"
+              ]
+          },
+          "phone": "+12124778161",
+          "display_phone": "(212) 477-8161",
+          "distance": 4516.02667275545
+      },
+      {
+          "id": "zYBtRXEW0_FbmY_fUHJG_g",
+          "alias": "chinatown-fair-family-fun-center-new-york",
+          "name": "Chinatown Fair Family Fun Center",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/RV2PtQtgz2lNC2qYCBWyUA/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/chinatown-fair-family-fun-center-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 205,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 40.7140138303502,
+              "longitude": -73.998600614049
+          },
+          "transactions": [],
+          "location": {
+              "address1": "8 Mott St",
+              "address2": null,
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10013",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "8 Mott St",
+                  "New York, NY 10013"
+              ]
+          },
+          "phone": "+12129641001",
+          "display_phone": "(212) 964-1001",
+          "distance": 5649.292267512933
+      },
+      {
+          "id": "ZTPzNkokilS90tuSpytCMw",
+          "alias": "funtopia-middle-village",
+          "name": "Funtopia",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/1HNGskA0KpE2piNPtXX0_w/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/funtopia-middle-village?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 87,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "venues",
+                  "title": "Venues & Event Spaces"
+              },
+              {
+                  "alias": "lasertag",
+                  "title": "Laser Tag"
+              }
+          ],
+          "rating": 3.0,
+          "coordinates": {
+              "latitude": 40.710897,
+              "longitude": -73.891576
+          },
+          "transactions": [],
+          "location": {
+              "address1": "6626 Metropolitan Ave",
+              "address2": "",
+              "address3": "Metro Mall",
+              "city": "Middle Village",
+              "zip_code": "11379",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "6626 Metropolitan Ave",
+                  "Metro Mall",
+                  "Middle Village, NY 11379"
+              ]
+          },
+          "phone": "+17183814300",
+          "display_phone": "(718) 381-4300",
+          "distance": 4193.841409255874
+      },
+      {
+          "id": "X0f9UYHoE4OxnuUq801vMg",
+          "alias": "the-upstairs-at-66-new-york",
+          "name": "The Upstairs at 66",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rAFkogN1Jpl-stxKwtep4Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/the-upstairs-at-66-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 15,
+          "categories": [
+              {
+                  "alias": "lounges",
+                  "title": "Lounges"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "speakeasies",
+                  "title": "Speakeasies"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 40.70418,
+              "longitude": -74.01048
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "46 Stone St",
+              "address2": null,
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10004",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "46 Stone St",
+                  "New York, NY 10004"
+              ]
+          },
+          "phone": "+12129431602",
+          "display_phone": "(212) 943-1602",
+          "distance": 6989.38388663169
+      },
+      {
+          "id": "A9erHyMSOxjyjVOLWjvVCQ",
+          "alias": "tiltz-sports-bar-brooklyn",
+          "name": "Tiltz Sports Bar",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7BmfpYrx5-7e6Kv0zaKUDw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/tiltz-sports-bar-brooklyn?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 84,
+          "categories": [
+              {
+                  "alias": "sportsbars",
+                  "title": "Sports Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.7027,
+              "longitude": -73.9336
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "location": {
+              "address1": "942 Flushing Ave",
+              "address2": "",
+              "address3": null,
+              "city": "Brooklyn",
+              "zip_code": "11206",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "942 Flushing Ave",
+                  "Brooklyn, NY 11206"
+              ]
+          },
+          "phone": "+17184184589",
+          "display_phone": "(718) 418-4589",
+          "distance": 3121.0364240487042
+      },
+      {
+          "id": "xHVQHe0vhtIPPtK9wUqb7A",
+          "alias": "jackbar-brooklyn",
+          "name": "Jackbar",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/DFghlLOr6-rfL20XYviP9Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/jackbar-brooklyn?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 109,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.7118301391602,
+              "longitude": -73.9571762084961
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "143 Havemeyer St",
+              "address2": null,
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11211",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "143 Havemeyer St",
+                  "Brooklyn, NY 11211"
+              ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 2787.976935431493
+      },
+      {
+          "id": "ueUXI1l4VfMLuoIEwyxZ6A",
+          "alias": "dave-and-busters-new-york-6",
+          "name": "Dave & Buster's",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Z0pju61UQ8tgqmfwdKkGmg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/dave-and-busters-new-york-6?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 881,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "tradamerican",
+                  "title": "American (Traditional)"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 2.5,
+          "coordinates": {
+              "latitude": 40.7565097115657,
+              "longitude": -73.988688769321
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "234 W 42nd St",
+              "address2": "Fl 3",
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10036",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "234 W 42nd St",
+                  "Fl 3",
+                  "New York, NY 10036"
+              ]
+          },
+          "phone": "+16464952015",
+          "display_phone": "(646) 495-2015",
+          "distance": 5344.878766169995
+      },
+      {
+          "id": "Y-7QlKbQe4wDoOn0fKKdyQ",
+          "alias": "fishbowl-new-york-2",
+          "name": "Fishbowl",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/I43i3N9sLzB8qGDq8y8sMQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/fishbowl-new-york-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 59,
+          "categories": [
+              {
+                  "alias": "lounges",
+                  "title": "Lounges"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 2.5,
+          "coordinates": {
+              "latitude": 40.7645,
+              "longitude": -73.9819
+          },
+          "transactions": [],
+          "price": "$$$",
+          "location": {
+              "address1": "210 West 55th St",
+              "address2": "",
+              "address3": "Dream Midtown",
+              "city": "New York",
+              "zip_code": "10019",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "210 West 55th St",
+                  "Dream Midtown",
+                  "New York, NY 10019"
+              ]
+          },
+          "phone": "+16467562077",
+          "display_phone": "(646) 756-2077",
+          "distance": 5440.482305680859
+      },
+      {
+          "id": "mwZvC4kXYcFh8-dMF5D-mA",
+          "alias": "sunshine-laundromat-and-pinball-brooklyn",
+          "name": "Sunshine Laundromat & Pinball",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cy9zoTadEitcG-pNkXLDBg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/sunshine-laundromat-and-pinball-brooklyn?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 114,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "beerbar",
+                  "title": "Beer Bar"
+              },
+              {
+                  "alias": "laundromat",
+                  "title": "Laundromat"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.7293128967285,
+              "longitude": -73.9535903930664
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "860 Manhattan Ave",
+              "address2": "",
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11222",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "860 Manhattan Ave",
+                  "Brooklyn, NY 11222"
+              ]
+          },
+          "phone": "+17184752055",
+          "display_phone": "(718) 475-2055",
+          "distance": 1549.164591532943
+      },
+      {
+          "id": "8Wk7ciMcn3rPASMmN3tF_w",
+          "alias": "barcade-new-york-5",
+          "name": "Barcade",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gV341dsj99HixAuA0r0sKQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/barcade-new-york-5?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 412,
+          "categories": [
+              {
+                  "alias": "bars",
+                  "title": "Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "burgers",
+                  "title": "Burgers"
+              }
+          ],
+          "rating": 3.5,
+          "coordinates": {
+              "latitude": 40.744243,
+              "longitude": -73.994506
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "148 W 24th St",
+              "address2": "",
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10011",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "148 W 24th St",
+                  "New York, NY 10011"
+              ]
+          },
+          "phone": "+12123908455",
+          "display_phone": "(212) 390-8455",
+          "distance": 5218.635510256579
+      },
+      {
+          "id": "0m9VxbXhv5jjDjt_l85o8g",
+          "alias": "joes-garage-bar-astoria",
+          "name": "Joe's Garage Bar",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qkOC6NmFm_JIWgRzqzQtzw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/joes-garage-bar-astoria?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 35,
+          "categories": [
+              {
+                  "alias": "sportsbars",
+                  "title": "Sports Bars"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.769136,
+              "longitude": -73.9050481
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "45-01 23rd Ave",
+              "address2": null,
+              "address3": "",
+              "city": "Astoria",
+              "zip_code": "11105",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "45-01 23rd Ave",
+                  "Astoria, NY 11105"
+              ]
+          },
+          "phone": "+17186060061",
+          "display_phone": "(718) 606-0061",
+          "distance": 4982.057352870679
+      },
+      {
+          "id": "FzRdBo4TBtMxLkPEqe1P4A",
+          "alias": "vr-world-nyc-new-york",
+          "name": "VR World NYC",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/LNAaHQ0dflI_i8dfzy_PBQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/vr-world-nyc-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 331,
+          "categories": [
+              {
+                  "alias": "virtualrealitycenters",
+                  "title": "Virtual Reality Centers"
+              },
+              {
+                  "alias": "venues",
+                  "title": "Venues & Event Spaces"
+              },
+              {
+                  "alias": "cocktailbars",
+                  "title": "Cocktail Bars"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.7480866,
+              "longitude": -73.9840104
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "8 E 34th St",
+              "address2": "",
+              "address3": null,
+              "city": "New York",
+              "zip_code": "10016",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "8 E 34th St",
+                  "New York, NY 10016"
+              ]
+          },
+          "phone": "+16465789630",
+          "display_phone": "(646) 578-9630",
+          "distance": 4545.160109054446
+      },
+      {
+          "id": "Lx2E-eQRmBLDMpyWdVZ9eg",
+          "alias": "water-world-amusements-new-york",
+          "name": "Water World Amusements",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZnbM9EVQsApfysJrXYicgg/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/water-world-amusements-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 3,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.71608,
+              "longitude": -73.98965
+          },
+          "transactions": [],
+          "location": {
+              "address1": "35 Essex St",
+              "address2": "",
+              "address3": null,
+              "city": "New York",
+              "zip_code": "10002",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "35 Essex St",
+                  "New York, NY 10002"
+              ]
+          },
+          "phone": "",
+          "display_phone": "",
+          "distance": 4868.0086523383625
+      },
+      {
+          "id": "tGepty1IkE_OgtViQTXisQ",
+          "alias": "next-level-brooklyn-2",
+          "name": "Next Level",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/r74j78WybZUk4iT7CR07dw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/next-level-brooklyn-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 20,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "tabletopgames",
+                  "title": "Tabletop Games"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.6568782,
+              "longitude": -74.0021798
+          },
+          "transactions": [],
+          "price": "$",
+          "location": {
+              "address1": "874 4th Ave",
+              "address2": "",
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11232",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "874 4th Ave",
+                  "Brooklyn, NY 11232"
+              ]
+          },
+          "phone": "+13476188813",
+          "display_phone": "(347) 618-8813",
+          "distance": 9953.148963929518
+      },
+      {
+          "id": "mvLf9pVnjW4rB5X2vh19EA",
+          "alias": "jump-into-the-light-new-york-2",
+          "name": "Jump into the Light",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PgT0ZGC6Hb5zuTH2Smk-kQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/jump-into-the-light-new-york-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 105,
+          "categories": [
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              },
+              {
+                  "alias": "virtualrealitycenters",
+                  "title": "Virtual Reality Centers"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.721741,
+              "longitude": -73.988103
+          },
+          "transactions": [],
+          "location": {
+              "address1": "180 Orchard St",
+              "address2": null,
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10002",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "180 Orchard St",
+                  "New York, NY 10002"
+              ]
+          },
+          "phone": "+16465901172",
+          "display_phone": "(646) 590-1172",
+          "distance": 4562.323824847716
+      },
+      {
+          "id": "6FcRWHjeFTxnFS4EkoiyTA",
+          "alias": "the-void-nyc-new-york",
+          "name": "The Void NYC",
+          "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YskLJ84o1RNfakTpkhtlFw/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/the-void-nyc-new-york?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 4,
+          "categories": [
+              {
+                  "alias": "virtualrealitycenters",
+                  "title": "Virtual Reality Centers"
+              },
+              {
+                  "alias": "arcades",
+                  "title": "Arcades"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.711588,
+              "longitude": -74.0114261
+          },
+          "transactions": [],
+          "location": {
+              "address1": "185 Greenwich St",
+              "address2": "",
+              "address3": null,
+              "city": "New York",
+              "zip_code": "10007",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "185 Greenwich St",
+                  "New York, NY 10007"
+              ]
+          },
+          "phone": "+13853230090",
+          "display_phone": "(385) 323-0090",
+          "distance": 6759.7699437533465
+      },
+      {
+          "id": "gcZKkx5UdABS_3hvN7tQYQ",
+          "alias": "giant-games-of-nyc-new-york-2",
+          "name": "Giant Games of NYC",
+          "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/TE9xrcoLlLWlZ5k9_6A6CQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/giant-games-of-nyc-new-york-2?adjust_creative=bAGy4KPBL7tPJwJUys1ysw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bAGy4KPBL7tPJwJUys1ysw",
+          "review_count": 7,
+          "categories": [
+              {
+                  "alias": "videoandgames",
+                  "title": "Videos & Video Game Rental"
+              }
+          ],
+          "rating": 5.0,
+          "coordinates": {
+              "latitude": 40.772908,
+              "longitude": -73.948906
+          },
+          "transactions": [],
+          "location": {
+              "address1": "1540 York Ave",
+              "address2": "",
+              "address3": "",
+              "city": "New York",
+              "zip_code": "10028",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "1540 York Ave",
+                  "New York, NY 10028"
+              ]
+          },
+          "phone": "+19174842704",
+          "display_phone": "(917) 484-2704",
+          "distance": 4842.103998350369
+      }
+  ],
+  "total": 163,
+  "region": {
+      "center": {
+          "longitude": -73.935242,
+          "latitude": 40.73061
+      }
+  }
+}
